@@ -77,6 +77,9 @@
         },
         {
             "path": "Tasks/UnityCMD/UnityCMDV1"
+        },
+        {
+            "path": "Tasks/UnityInstall/UnityInstallV1"
         }
     ],
     "branding": {
@@ -146,6 +149,16 @@
             ],
             "properties": {
                 "name": "Tasks/UnityCMD"
+            }
+        },
+        {
+            "id": "custom-unity-install-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "Tasks/UnityInstall"
             }
         }
     ]
